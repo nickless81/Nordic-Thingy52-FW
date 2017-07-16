@@ -1,1 +1,9 @@
 _build
+external/micro-ecc
+external/micro_ecc_lib_nrf52.lib
+external/nano-pb
+external/sdk/
+external/segger_rtt
+libs/liblibmplmpu_m4_hardfp/
+libs/libmpllib_Keil_M4FP/
+sdk_components
