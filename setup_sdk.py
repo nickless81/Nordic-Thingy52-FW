@@ -50,7 +50,7 @@ if __name__ == '__main__':
        patch_command = "patch"  # Expected to be in path
        gcc_toolchain = os.path.isfile("/usr/local/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-gcc")
     elif sys.platform == "win32":
-       patch_command = "C:/Program Files/Git/usr/bin/patch.exe"
+       patch_command = "C:/Strawberry/c/bin/patch.exe"
        gcc_toolchain = os.path.isfile("C:/Program Files (x86)/GNU Tools ARM Embedded/4.9 2015q3/bin/arm-none-eabi-gcc.exe")
     if not spawn.find_executable('make'):
         gcc_toolchain = False    
